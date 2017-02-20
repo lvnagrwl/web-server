@@ -1,7 +1,7 @@
 var xyz = require('express');
 var app = xyz();
 
-var PORT =3000; //uppercase measn do not change this value
+var PORT = process.env.PORT || 3000; //uppercase measn do not change this value
 
 
 app.get('/' , function(req , res){
