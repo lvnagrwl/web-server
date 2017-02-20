@@ -3,6 +3,7 @@ var app = xyz();
 
 var PORT =3000; //uppercase measn do not change this value
 
+
 app.get('/' , function(req , res){
 
 	res.send('Hello express!');
@@ -10,7 +11,7 @@ app.get('/' , function(req , res){
 
 app.get('/about' , function(req , res){
 
-	res.send('About Us!');
+	res.send('About Us!!');
 });
 
 //console.log(__dirname);  to print the current path of file in command line
